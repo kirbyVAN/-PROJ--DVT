@@ -1,0 +1,25 @@
+#TITRE
+{
+	
+}
+
+#COPRS
+{
+	
+}
+
+#MENU
+{
+	
+}
+
+#PIED
+{
+	display: inline-block;
+	width: auto;
+	margin: 1%;
+	padding: 3%;
+	border: 2px solid grey;
+	position: bottom;
+	text-align: center;
+}
