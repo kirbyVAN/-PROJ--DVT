@@ -1,0 +1,7 @@
+Listes des pages HTML :
+
+Accueil --> présentation PTUT + Organisation du site
+Sommaire --> Menu/Listes des sujets (liens)
+PTUT --> présenter un sujet
+Recherche --> types de support, année, noms, mot-clés
+Login --> Zone de saisie
