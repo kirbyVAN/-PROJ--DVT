@@ -1,25 +1,5 @@
-#TITRE
+p
 {
-	
-}
-
-#COPRS
-{
-	
-}
-
-#MENU
-{
-	
-}
-
-#PIED
-{
-	display: inline-block;
-	width: auto;
-	margin: 1%;
-	padding: 3%;
-	border: 2px solid grey;
-	position: bottom;
-	text-align: center;
+	font-family: time new roman;
+	font-size: 14pt;
 }

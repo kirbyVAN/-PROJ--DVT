@@ -1,0 +1,42 @@
+.header
+{
+	display: block;
+	position: center;
+	float: center;
+	text-align: center;
+	font-size: 40px;
+	margin: 1%;
+	padding: 1%;
+}
+
+.content
+{
+	display: inline-block;
+	float: right;
+	width: 75%;
+	margin: 1%;
+	padding: 1%;
+	border: solid #cdcdcd 2pt;
+	border-radius: 20px;
+}
+
+.nav
+{
+	display: inline-block;
+	float: left;
+	width: 15%;
+	margin: 1%;
+	padding: 1%;
+	border: solid #cdcdcd 2pt;
+}
+
+.footer
+{
+	display: block;
+	position: center;
+	width: auto;
+	margin: 1%;
+	padding: 1%;
+	float: bottom;
+	text-align: center;
+}
