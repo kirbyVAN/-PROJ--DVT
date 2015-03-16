@@ -1,10 +1,10 @@
 .header
 {
 	display: block;
-	position: center;
 	float: center;
 	text-align: center;
 	font-size: 40px;
+	font-weight: bold;
 	margin: 1%;
 	padding: 1%;
 }
@@ -16,7 +16,7 @@
 	width: 75%;
 	margin: 1%;
 	padding: 1%;
-	border: solid #cdcdcd 2pt;
+	border: solid #bcbcbc 2pt;
 	border-radius: 20px;
 }
 
@@ -28,6 +28,7 @@
 	margin: 1%;
 	padding: 1%;
 	border: solid #cdcdcd 2pt;
+	border-radius: 10px;
 }
 
 .footer

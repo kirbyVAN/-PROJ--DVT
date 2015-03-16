@@ -5,7 +5,7 @@
   margin:0;
   list-style:none;
   text-align: center;
-  width: 180px;
+  width: auto;
   text-align: center;
 }
 #menu ul 
@@ -21,6 +21,7 @@
    background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
    background-image: linear-gradient(150deg, grey 0%, black 100%);*/
    border-radius: 6px;
+   width: auto;
    margin:5%;
    padding: 1%;
    box-shadow: 3px 3px 3px #808080;
@@ -41,10 +42,12 @@
 {
   display:block;
   text-decoration: none;
-  color: #fff;
+  color: #2020ff;
   padding: 8px 0;
-  font-family: verdana;
-  font-size:1.2em
+  font-family: arial, verdana;
+  font-size:1.2em;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 #menu ul li a, #menu li:hover li a 
 {
