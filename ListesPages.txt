@@ -1,6 +1,6 @@
 Listes des pages HTML :
 
-Accueil --> Organisation du site
+Accueil --> Organisation du site (index1)
 Sommaire --> Menu/Listes des sujets (liens)
 PTUT --> présenter un sujet
 Recherche --> types de support, année, noms, mot-clés

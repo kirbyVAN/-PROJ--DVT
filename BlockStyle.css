@@ -7,7 +7,7 @@
 	font-weight: bold;
 	margin: 1%;
 	padding: 1%;
-	background-image: linear-gradient(grey 0%, white 80%);
+	background-image: linear-gradient(#5B7CFE 0%, white 80%);
 	border-radius: 30px;
 }
 
@@ -41,6 +41,6 @@
 	padding: 1%;
 	float: bottom;
 	text-align: center;
-	background-image: linear-gradient(white 10%, grey 100%);
+	background-image: linear-gradient(white 10%, #5B7CFE 100%);
 	border-radius: 30px;
 }
