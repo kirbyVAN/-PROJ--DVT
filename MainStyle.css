@@ -9,3 +9,13 @@ label
 	font-size: 14pt;
 	font-family: arial;
 }
+
+HR
+{
+	text-align: center;
+	height: 1%;
+	width: 100%;
+	background-color: #808080;
+	border-style: solid;
+	border-color: #ababab;
+}
