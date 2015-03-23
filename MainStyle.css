@@ -19,3 +19,13 @@ HR
 	border-style: solid;
 	border-color: #ababab;
 }
+
+input
+{
+	font-size : 12pt;
+}
+
+.content table
+{
+	position : center;
+}
