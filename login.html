@@ -2,7 +2,8 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="BlockStyle.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="BlockStyle.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:1280px)" href="MediaStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MainStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MenuStyle.css" />
         <title>Projets Tuteurés - Espace personnel</title>
@@ -15,8 +16,8 @@
 		<div class="nav">
 			<!--Menu commun à toutes les pages-->
 			<table>
-				<tr><label>Recherches : </label></tr>
-				<tr><td><input placeholder="ex : S1; NFC; IA; ..."></td>
+				<tr><label class="rech" for="rech">Recherches : </label></tr>
+				<tr><td><input id="rech" name="recherche" placeholder="ex : S1; NFC; IA; ..."></td>
 					<td><button>OK</button></td></tr>
 			</table>
 			<ul id="menu">
@@ -29,13 +30,17 @@
 		</div>
 		<div class="content">
 			<!--Corps de la page-->
-			<table>
-				<tr><td><label>Identifiant : </label></td>
-					<td><input placeholder="numéro étudiant : pxxxxxxx"></td></tr>
-				<tr><td><label>Mot de passe : </label></td>
-					<td><input type="password" placeholder="*******"></td></tr>
-				<tr><td><button>Se connecter</button></td></tr>
-			</table>
+			<form>
+				<table>
+					<tr><td><label for="ident">Identifiant : </label></td>
+						<td><input id="ident" placeholder="numéro étudiant : pxxxxxxx"></td>
+					</tr>
+					<tr><td><label for="mp">Mot de passe : </label></td>
+						<td><input id="mp" type="password" placeholder="*******"></td>
+					</tr>
+					<tr><td align="right" colspan="2"><button>Se connecter</button></td></tr>
+				</table>
+			</form>
 		</div>
 		<HR/>
 		<div class="footer">

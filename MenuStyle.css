@@ -17,12 +17,9 @@
 }
 #menu li 
 {
-   /*background-color:#729EBF; 
-   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-   background-image: linear-gradient(150deg, grey 0%, black 100%);*/
    border-radius: 6px;
    width: auto;
-   margin:5%;
+   margin : 2%;
    padding: 1%;
    box-shadow: 3px 3px 3px #808080;
    border:solid 1px #333A40
@@ -43,7 +40,7 @@
   display:block;
   text-decoration: none;
   color: #2020ff;
-  padding: 8px 0;
+  padding: 8px;
   font-family: arial, verdana;
   font-size:1.2em;
   font-variant: small-caps;

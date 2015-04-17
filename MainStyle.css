@@ -27,5 +27,10 @@ input
 
 .content table
 {
-	position : center;
+	text-align : center;
+}
+
+.nav table
+{
+	text-align : center;
 }

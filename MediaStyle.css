@@ -1,0 +1,42 @@
+@media screen and (max-width: 1280px)
+{
+	.content
+	{
+		display: block;
+		float: center;
+		width: auto;
+		margin: 1%;
+		padding: 1%;
+		border: solid #bcbcbc 2pt;
+		border-radius: 20px;
+	}
+
+	.nav
+	{
+		text-align: center;
+		display: block;
+		float: center;
+		width: 80%;
+		margin: 1%;
+		padding: 1%;
+		border-radius: 10px;
+	}
+	
+	.nav table
+	{
+		display : inline-block;
+	}
+	
+	.nav label
+	{
+		display : none;
+	}
+	
+	.nav #menu li 
+	{
+		width : auto;
+		margin : 0%;
+		padding : 1%;
+		display : inline-block;
+	}
+}

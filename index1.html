@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="BlockStyle.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:1280px)" href="MediaStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MainStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MenuStyle.css" />
         <title>Projets Tuteurés - Accueil</title>
@@ -14,11 +15,13 @@
 		</div>
 		<div class="nav">
 			<!--Menu commun à toutes les pages-->
-			<table>
-				<tr><label>Recherches : </label></tr>
-				<tr><td><input placeholder="ex : S1; NFC; IA; ..."></td>
-					<td><button>OK</button></td></tr>
-			</table>
+			<form>
+				<table>
+					<tr><label class="rech" for="rech">Recherches : </label></tr>
+					<tr><td><input id="rech" name="recherche" placeholder="ex : S1; NFC; IA; ..."></td>
+						<td><button>OK</button></td></tr>
+				</table>
+			</form>
 			<ul id="menu">
 				<li><a href="index1.html"/>Accueil</a></li>
 				<li><a href=".html"/>_</a></li>
