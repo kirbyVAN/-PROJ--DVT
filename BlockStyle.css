@@ -15,7 +15,7 @@
 {
 	display: inline-block;
 	float: right;
-	width: 75%;
+	width: 70%;
 	margin: 1%;
 	padding: 1%;
 	border: solid #bcbcbc 2pt;
@@ -35,12 +35,12 @@
 
 .footer
 {
-	display: block;
+	/*display: block;*/
 	position: center;
 	width: auto;
 	margin: 1%;
 	padding: 1%;
-	float: bottom;
+	bottom : 0px;
 	text-align: center;
 	background-image: linear-gradient(white 10%, #5B7CFE 100%);
 	border-radius: 30px;

@@ -30,7 +30,25 @@ input
 	text-align : center;
 }
 
+table.tab th
+{
+	border: 5px double grey;
+	padding : 2px;
+}
+
+table.tab td
+{
+	border: 2px solid #aaa;
+}
+
 .nav table
 {
+	display : inline-block;
 	text-align : center;
+}
+
+.content table select
+{
+	font-size : 12pt;
+	margin-left : 110%;
 }

@@ -27,13 +27,14 @@
 #menu li li
  {
    max-height:0;
+   padding : 0%;
    overflow: hidden;
    transition: all .5s;
    border-radius:0;
-   background: #444;
+   background: #eee;
    box-shadow: none;
    border:none;
-   margin:0
+   margin:0%;
 }
 #menu a 
 {
@@ -52,11 +53,11 @@
 }
 #menu li:hover 
 {
-   background: #aaaaaa
+   background: #bbb
 }
 #menu li li:hover 
 {
-   background: #999;
+   background: #aaa;
 }
 #menu ul li:last-child 
 {
@@ -67,4 +68,4 @@
 {
   max-height: 15em;
 }
-/*Fin menu vertical*/
+/*Fin menu déroulant*/
