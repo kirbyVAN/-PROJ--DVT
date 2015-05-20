@@ -45,3 +45,21 @@
 	background-image: linear-gradient(white 10%, #5B7CFE 100%);
 	border-radius: 30px;
 }
+
+.footer #menu-icones-sociaux
+{
+	display : inline-block;
+	width : 35%;
+}
+
+.footer #iut-link
+{
+	display : inline-block;
+	width : 25%;
+}
+
+.footer #menu-icones-partenaires
+{
+	display : inline-block;
+	width : 35%;
+}

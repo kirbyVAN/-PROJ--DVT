@@ -1,3 +1,9 @@
+
+body
+{
+	background-color : #d9d9f
+}
+
 p
 {
 	font-family: time new roman;
@@ -51,4 +57,14 @@ table.tab td
 {
 	font-size : 12pt;
 	margin-left : 110%;
+}
+
+.footer #menu-icones-sociaux li
+{
+	display : inline;
+}
+
+.footer #menu-icones-partenaires li
+{
+	display : inline;
 }
