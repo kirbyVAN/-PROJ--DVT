@@ -1,53 +1,38 @@
-@media handheld and (max-width: 800px)
-{
-
-	.content
-	{
-		display: block;
-		float: center;
-		width: auto;
-		margin: 1%;
-		padding: 1%;
-		border: solid #bcbcbc 2pt;
-		border-radius: 20px;
+@media handheld and (max-width:800px) {
+	.content {
+		display : block;
+		width : auto;
+		margin : 1%;
+		padding : 1%;
+		border : #bcbcbc solid 2pt;
+		border-radius : 20px;
 	}
-
-	.nav
-	{
-		text-align: center;
-		display: block;
-		float: center;
-		width: 80%;
-		margin: 1%;
-		padding: 1%;
-		border-radius: 10px;
+	.nav {
+		text-align : center;
+		display : block;
+		width : 80%;
+		margin : 1%;
+		padding : 1%;
+		border-radius : 10px;
 	}
-	
-	.nav table
-	{
+	.nav table {
 		display : inline-block;
 	}
-	
-	.nav label
-	{
+	.nav label {
 		display : none;
 	}
-	
-	.nav #menu li 
-	{
+	.nav #menu li {
 		width : auto;
 		margin : 0%;
 		padding : 1%;
-		display : inline-block;
+		display : inline;
 		vertical-align : top;
 	}
-	
-	.nav #menu li li
-	{
+	.nav #menu li li {
 		width : auto;
 		display : block;
-		margin : 0px;
-		padding : 0px;
-		max-height : 0px;
+		margin : 0;
+		padding : 0;
+		max-height : 0;
 	}
 }
