@@ -1,19 +1,52 @@
 
 body
 {
-	background-color : #d9d9f
+	background-color : /*#d9d9f*/#111;
+}
+
+h1
+{
+	color : #fff;
+}
+
+h2
+{
+	color : #fff;
 }
 
 p
 {
 	font-family: time new roman;
 	font-size: 14pt;
+	color : #fff;
+}
+
+a
+{
+	color : yellow;
+}
+
+ul, ol
+{
+	color : #fff;
+	font-size : 14pt;
 }
 
 label
 {
 	font-size: 14pt;
 	font-family: arial;
+	color : #fff;
+}
+
+.nav input
+{
+	width : 80%;
+}
+
+input
+{
+	font-size : 12pt;
 }
 
 HR
@@ -21,14 +54,18 @@ HR
 	text-align: center;
 	height: 1%;
 	width: 100%;
-	background-color: #808080;
+	background-color: #a0a0a0;
 	border-style: solid;
 	border-color: #ababab;
 }
 
-input
+button
 {
+	border-radius : 80%;
+	background-image: linear-gradient(#45cd1f 0%, #111 80%);
 	font-size : 12pt;
+	color : white;
+	padding : 2%;
 }
 
 .content table
@@ -40,11 +77,13 @@ table.tab th
 {
 	border: 5px double grey;
 	padding : 2px;
+	color :#fff;
 }
 
 table.tab td
 {
 	border: 2px solid #aaa;
+	color : #fff
 }
 
 .nav table
@@ -67,4 +106,14 @@ table.tab td
 .footer #menu-icones-partenaires li
 {
 	display : inline;
+}
+
+.footer #RESEAUX-SOCIAUX
+{
+	color : #fff;
+}
+
+.footer img
+{
+	border-radius : 50%;
 }

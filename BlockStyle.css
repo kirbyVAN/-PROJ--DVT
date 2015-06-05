@@ -7,8 +7,9 @@
 	font-weight: bold;
 	margin: 1%;
 	padding: 1%;
-	background-image: linear-gradient(#5B7CFE 0%, white 80%);
+	background-image: linear-gradient(/*#5B7CFE*/#45cd1f 0%, #111 80%);
 	border-radius: 30px;
+	color : white;
 }
 
 .content
@@ -24,6 +25,7 @@
 
 .nav
 {
+	background-image: linear-gradient(#45cd1f 0%, #111 20%, #111 80%, #45cd1f 100%);
 	text-align: center;
 	display: inline-block;
 	float: left;
@@ -42,7 +44,7 @@
 	padding: 1%;
 	bottom : 0px;
 	text-align: center;
-	background-image: linear-gradient(white 10%, #5B7CFE 100%);
+	background-image: linear-gradient(#111 20%, /*#5B7CFE*/#45cd1f 100%);
 	border-radius: 30px;
 }
 

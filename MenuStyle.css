@@ -22,7 +22,7 @@
    margin : 2%;
    padding: 1%;
    box-shadow: 3px 3px 3px #808080;
-   border:solid 1px #333A40
+   border:solid 0px #333A40
 }
 #menu li li
  {
@@ -40,7 +40,7 @@
 {
   display:block;
   text-decoration: none;
-  color: #2020ff;
+  color: /*#2020ff*/white;
   padding: 8px;
   font-family: arial, verdana;
   font-size:1.2em;
@@ -49,15 +49,16 @@
 }
 #menu ul li a, #menu li:hover li a 
 {
-  font-size:1em
+	color : green;
+  font-size:1em;
 }
 #menu li:hover 
 {
-   background: #bbb
+	background: #bbb;
 }
 #menu li li:hover 
 {
-   background: #aaa;
+	background: #aaa;
 }
 #menu ul li:last-child 
 {
