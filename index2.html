@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" media="handheld and (max-width: 800px)" href="MediaStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MainStyle.css" />
 		<link rel="stylesheet" type="text/css" href="MenuStyle.css" />
-        <title>Projets Tuteurés - </title>
+        <title>Projets Tuteurés - Liste des projets</title>
     </head>
 	<body>
 		<div id="haut" class="header">
@@ -16,13 +16,13 @@
 		<div class="nav">
 			<!--Menu commun à toutes les pages-->
 			<table>
-				<tr><label>Recherches : </label></tr>
-				<tr><td><input placeholder="ex : S1; NFC; IA; ..."></td>
+				<tr><td colspan="2"><label for="rech">Recherches : </label></td></tr>
+				<tr><td><input id="rech" placeholder="ex : S1; NFC; IA; ..."></td>
 					<td><button>OK</button></td></tr>
 			</table>
 			<ul id="menu">
-				<li><a href="index1.html"/>Accueil</a></li>
-				<li><a href="index2.html"/>Liste des sujets &darr; </a>
+				<li><a href="index1.html">Accueil</a></li>
+				<li><a href="index2.html">Liste des sujets &darr; </a>
 					<ul>
 						<li><a href="#s1">Semestre 1</a></li>
 						<li><a href="#s2">Semestre 2</a></li>
@@ -30,9 +30,9 @@
 						<li><a href="#as">Année Spéciale</a></li>
 					</ul>
 				</li>
-				<li><a href="index3.html"/>Recherches</a></li>
-				<li><a href="login.html"/>Espace Personnel</a></li>
-				<li><a href=".html"/>_</a></li>
+				<li><a href="index3.html">Recherches</a></li>
+				<li><a href="index4.html">Espace Personnel</a></li>
+				<li><a href="index5.html">Contacts</a></li>
 			</ul>
 		</div>
 		<div class="content">
@@ -77,7 +77,7 @@
 				</tr>
 			</table>
 			<br/>
-			<a href="#haut"><img src='./images/go-up.png' alt="Flèche vers le haut" width="80px"/></a>
+			<a href="#haut"><img src='./images/go-up.png' alt="Flèche vers le haut" id="arrow"/></a>
 		</div>
 		<HR/>
 		<div class="footer">
@@ -86,10 +86,10 @@
 			<div id="menu-icones-sociaux">
 			<span id="RESEAUX-SOCIAUX">Restez connecté avec Lyon1</span>
 			<ul>
-				<li><a href="https://www.facebook.com/UnivLyon1"><img src='http://iut.univ-lyon1.fr/medias/photo/fb_1374756608822-png'  alt="Facebook" class="RSintitule" id="1374587629425" /></a></li>
-				<li><a href="https://twitter.com/UnivLyon1"><img src='http://iut.univ-lyon1.fr/medias/photo/tw_1374756624969-png'  alt="Twitter" class="RSintitule" id="1374587734275" /></a></li>
-				<li><a href="http://www.youtube.com/UnivLyon1"><img src='http://iut.univ-lyon1.fr/medias/photo/yt_1374756640438-png'  alt="Youtube" class="RSintitule" id="1374587782714" /></a></li>
-				<li><a href="http://feeds.feedburner.com/UnivLyon1"><img src='http://iut.univ-lyon1.fr/medias/photo/rss-icon_1374757330632-png'  alt="RSS" class="RSintitule" id="1374588026335" /></a></li>	 			
+				<li><a href="https://www.facebook.com/UnivLyon1" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/fb_1374756608822-png'  alt="Facebook" class="RSintitule" id="1374587629425" /></a></li>
+				<li><a href="https://twitter.com/UnivLyon1" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/tw_1374756624969-png'  alt="Twitter" class="RSintitule" id="1374587734275" /></a></li>
+				<li><a href="http://www.youtube.com/UnivLyon1" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/yt_1374756640438-png'  alt="Youtube" class="RSintitule" id="1374587782714" /></a></li>
+				<li><a href="http://feeds.feedburner.com/UnivLyon1" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/rss-icon_1374757330632-png'  alt="RSS" class="RSintitule" id="1374588026335" /></a></li>	 			
 			</ul></div><!-- fin #menu reseaux sociaux -->
 		
 
@@ -97,7 +97,9 @@
 				<a href="http://iut.univ-lyon1.fr/" target="_blank"><img src="./images/IUTlogo.jpg" width="115" alt="logo IUT"/></a><!--Logo IUT-->
 			</div>
 			
-			<div id="menu-icones-partenaires"><a href="http://www.enseignementsup-recherche.gouv.fr/"><img src='http://iut.univ-lyon1.fr/medias/photo/partenaires-mes_1374756071340-jpg'  alt="Ministère de l'Enseignement Supérieur et de la Recherche" id="part1374658466535" /></a><a href="http://www.rhonealpes.fr/"><img src='http://iut.univ-lyon1.fr/medias/photo/logoregionrap-rbv-mini-2014_1395924349144-jpg'  alt="Région Rhône-Alpes" id="part1374658547413" /></a><a href="http://www.universite-lyon.fr/"><img src='http://iut.univ-lyon1.fr/medias/photo/partenaires-udl_1374756071412-jpg'  alt="Université de Lyon" id="part1374658595881" /></a>	 			
+			<div id="menu-icones-partenaires"><a href="http://www.enseignementsup-recherche.gouv.fr/" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/partenaires-mes_1374756071340-jpg'  alt="Ministère de l'Enseignement Supérieur et de la Recherche" id="part1374658466535" /></a>
+			<a href="http://www.rhonealpes.fr/" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/logoregionrap-rbv-mini-2014_1395924349144-jpg'  alt="Région Rhône-Alpes" id="part1374658547413" /></a>
+			<a href="http://www.universite-lyon.fr/" target="_blank"><img src='http://iut.univ-lyon1.fr/medias/photo/partenaires-udl_1374756071412-jpg'  alt="Université de Lyon" id="part1374658595881" /></a>	 			
 			</div><!-- fin #menu partenaires -->
 
 		</div>

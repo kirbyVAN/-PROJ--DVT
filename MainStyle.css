@@ -32,6 +32,12 @@ ul, ol
 	font-size : 14pt;
 }
 
+address
+{
+	color : #fff;
+	font-size : 14pt;
+}
+
 label
 {
 	font-size: 14pt;
@@ -57,6 +63,29 @@ HR
 	background-color: #a0a0a0;
 	border-style: solid;
 	border-color: #ababab;
+}
+
+iframe
+{
+	width : 500px;
+	height : 400px;
+	border : hidden;
+	margin : 0%;
+}
+
+#butco
+{
+	text-align : right;
+}
+
+#restco
+{
+	text-align : left;
+}
+
+#arrow
+{
+	width : 80px;
 }
 
 button
