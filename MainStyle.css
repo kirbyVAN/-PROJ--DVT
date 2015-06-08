@@ -1,7 +1,8 @@
 
 body
 {
-	background-color : /*#d9d9f*/#111;
+	background-image : url(images/texture01.jpg);
+	background-repeat : repeat;
 }
 
 h1
@@ -144,5 +145,5 @@ table.tab td
 
 .footer img
 {
-	border-radius : 50%;
+	border-radius : 45%;
 }

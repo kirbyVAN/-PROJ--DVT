@@ -7,7 +7,7 @@
 	font-weight: bold;
 	margin: 1%;
 	padding: 1%;
-	background-image: linear-gradient(/*#5B7CFE*/#45cd1f 0%, #111 80%);
+	background-color : rgba(39,175,1,0.2);
 	border-radius: 30px;
 	color : white;
 }
@@ -19,13 +19,13 @@
 	width: 70%;
 	margin: 1%;
 	padding: 1%;
-	border: solid #bcbcbc 2pt;
+	border: solid rgba(39,175,1,0.2) 3pt;
 	border-radius: 20px;
 }
 
 .nav
 {
-	background-image: linear-gradient(#45cd1f 0%, #111 20%, #111 80%, #45cd1f 100%);
+	background-color : rgba(39,175,1,0.2);
 	text-align: center;
 	display: inline-block;
 	float: left;
@@ -37,15 +37,15 @@
 
 .footer
 {
-	/*display: block;*/
+	display: block;
 	position: center;
 	width: auto;
 	margin: 1%;
 	padding: 1%;
 	bottom : 0px;
 	text-align: center;
-	background-image: linear-gradient(#111 20%, /*#5B7CFE*/#45cd1f 100%);
-	border-radius: 30px;
+	background-color : rgba(39,175,1,0.2);
+	border-radius: 20px;
 }
 
 .footer #menu-icones-sociaux
