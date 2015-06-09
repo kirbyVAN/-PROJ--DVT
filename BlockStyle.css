@@ -1,7 +1,6 @@
 .header
 {
 	display: block;
-	/*float: center;*/
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
@@ -38,11 +37,12 @@
 .footer
 {
 	display: block;
-	position: center;
-	width: auto;
+	position: relative;
+	bottom : 0px;
+	height : auto;
+	width: 95%;
 	margin: 1%;
 	padding: 1%;
-	bottom : 0px;
 	text-align: center;
 	background-color : rgba(39,175,1,0.2);
 	border-radius: 20px;
